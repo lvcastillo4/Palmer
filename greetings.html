@@ -10,6 +10,7 @@
 
         body{
             font-variant-caps: all-petite-caps;
+            background-color: white;
 
 
         }
@@ -79,7 +80,6 @@
                     <div class="time" id="min"></div>
                     <div class="colon">:</div>
                     <div class="time" id="sec"></div>
-                    <div id=”bgColorChange”></div>
                 </div>
            
 
@@ -137,7 +137,6 @@ function dispalyGreetings(today){
         document.getElementById('hour').innerHTML = hour;
         document.getElementById('min').innerHTML = minutes;
         document.getElementById('sec').innerHTML = seconds;
-        document.getElementById(‘bgColorChange’).style.backgroundColor = ‘white’;
     }
 
     function twelveHour(hour) {
